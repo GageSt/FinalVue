@@ -1,0 +1,96 @@
+/*[Root & Element (Globally Styling)]*/
+header{
+  display: flex;
+  text-align: right;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 2em;
+  margin: 2em 0px;
+}
+
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(254, 255, 225);
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+nav a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color:crimson;
+}
+
+header{
+  flex: 0 1 370px;
+  padding: 10px 40px;
+  background-color:rgb(117, 248, 105);
+}
+
+.logoName{
+  flex: 1 1 auto;
+  font-size: 1.5rem;
+}
+
+code{
+  color:crimson;
+}
+
+footer{
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1px;
+  flex: 1 1 200px;
+  /* The above is shorthand for:
+  flex-grow: 0,
+  flex-shrink: 1,
+  flex-basis: 200px
+  */
+  background-color:rgb(117, 248, 105);
+}
+
+.footerLinks a{
+  margin: 5px;
+}
+
+
+
+main{
+  /* background: rgb(71, 161, 177);
+  background: linear-gradient(0deg, rgb(229, 229, 226) 50%, rgb(228, 212, 179) 100%); */
+  padding-bottom: 1px;
+  /* ***Sketchy Unexplainable fix for Main background top margin spacing problem*/
+  padding-top: 1px;
+  flex: 1 1 100%;
+}
+
+card{
+  width: 100%;
+  border-radius: 25px;
+  margin: 0px 10px;
+  box-shadow: 3px 3px 10px #000;
+  background-color: azure;
+}
+
